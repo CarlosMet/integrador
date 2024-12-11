@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Form from '../components/Form'
 import ProgressBar from '../components/ProgressBar'
-import Navbar from '../components/Navbar'
+import Headers from '../components/Headers'
 import OpcionesSeguro from '../components/OpcionesSeguro'
 
 export default function page() {
