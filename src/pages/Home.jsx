@@ -1,11 +1,42 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
+import Headers from "../components/Headers"
 
-
-export default function Home() {
+const Home = () => {
   return (
-    <div>
-      <Navbar />
+    <div className="container2">
+        <Headers />
+        
+        <div className="image-grid">
+          <div>
+            <img src="https://via.placeholder.com/150" alt="Profile" />
+          </div>
+          <div>
+            <img src="https://via.placeholder.com/150" alt="Profile" />
+          </div>
+          <div>
+            <img src="https://via.placeholder.com/150" alt="Profile" />
+          </div>
+          <div>
+            <img src="https://via.placeholder.com/150" alt="Profile" />
+          </div>
+          <div>
+            <img src="https://via.placeholder.com/150" alt="Profile" />
+          </div>
+          <div>
+            <img src="https://via.placeholder.com/150" alt="Profile" />
+          </div>
+          <div>
+            <img src="https://via.placeholder.com/150" alt="Profile" />
+          </div>
+          <div>
+            <img src="https://via.placeholder.com/150" alt="Profile" />
+          </div>
+          <div>
+            <img src="https://via.placeholder.com/150" alt="Profile" />
+          </div>
+        </div>
     </div>
-  )
-}
+  );
+};
+
+
+export default Home;
