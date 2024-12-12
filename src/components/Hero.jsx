@@ -2,6 +2,7 @@ import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import MagicButton from './ui/MagicButton'
+import { FaLocationArrow } from 'react-icons/fa'
 
 export default function Hero() {
   return (
@@ -22,7 +23,11 @@ export default function Hero() {
                     words="MAIN TITLE THAT APPEARS IN THE HERO AND HAS TWO LINES"
                     className="text-center text-3xl md:text-4xl lg:md:text-6xl 2xl:text-7xl text-white tracking-tighter mb-4 md:mb-7 lg:mb-9"
                 />
-                <MagicButton title="Get Started" />
+                <MagicButton 
+                    title="Get Started" 
+                    icon={<FaLocationArrow />}    
+                    position="right"
+                />
             </div>
         </div>
 
