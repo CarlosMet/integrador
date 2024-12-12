@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 
 export default function Navbar() {
   return (
-    <div>
+    <nav className='bg-black-100'>
       <Link to={'/agregar'}>Agregar</Link>
-    </div>
+    </nav>
   )
 }

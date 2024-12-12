@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 // import { vehiclesInfo } from '../utils/tempDB'
-import { vehiclesInfo } from '../utils/tempDB'
+import { vehiclesInfo } from '../../utils/tempDB'
 
 export default function Select({getSelectedCar}) {
 
