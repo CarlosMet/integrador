@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -86,7 +86,7 @@
 }
 
 
-=======
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -354,4 +354,3 @@
     border-radius: 8px; /* Bordes redondeados (opcional) */
   }
   
->>>>>>> eb123b2ceca2c242b1d2268e15bf8d7330d25f59

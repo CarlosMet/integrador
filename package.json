@@ -1,5 +1,5 @@
 {
-  "name": "y",
+  "name": "seguros",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,14 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-<<<<<<< HEAD
     "clsx": "^2.1.1",
     "framer-motion": "^11.13.5",
     "mini-svg-data-uri": "^1.4.4",
     "motion": "^11.13.3",
-=======
     "json": "^11.0.0",
->>>>>>> eb123b2ceca2c242b1d2268e15bf8d7330d25f59
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.4.0",
